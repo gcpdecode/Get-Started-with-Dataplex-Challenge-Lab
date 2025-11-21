@@ -134,7 +134,7 @@ PROJECT_ID=$(gcloud config get-value project)
 URL="https://console.cloud.google.com/dataplex/templates/create?project=${PROJECT_ID}"
 
 echo
-echo "${YELLOW_TEXT}${BOLD_TEXT}Open the above URL: ⬆️ ${RESET_FORMAT}"
+echo "${YELLOW_TEXT}${BOLD_TEXT}Open the below URL: ⬇️ ${RESET_FORMAT}"
 echo "${WHITE_TEXT}${BOLD_TEXT} $URL ${RESET_FORMAT}"
 echo
 
